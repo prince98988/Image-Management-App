@@ -1,0 +1,1 @@
+export var shared_image={"hello":"prince"};
