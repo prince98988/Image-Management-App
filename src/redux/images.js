@@ -1,4 +1,4 @@
-import { actions } from 'react-redux-form';
+
 import * as ActionTypes from './ActionTypes';
 import {dimages} from './images_json' ;
 
@@ -19,8 +19,6 @@ export const Images = (state = {
 
         case ActionTypes.ADD_IMAGE:
             return {...state, images: action.payload}
-        case ActionTypes.DELETE_IMAGE:
-            return {...state,images: action.payload};
         
         case ActionTypes.CHANGE_SEARCH_MODAL:
             return {...state, isSearchModalOpen :!state.isSearchModalOpen}
