@@ -29,3 +29,6 @@ Set-up:
 2. on cmd : 'npm install'   - to install all libraries
 
 3. on cmd : 'npm start'  -to run this app 
+
+
+Deployed Site: https://image-management-app-prince.netlify.app/
